@@ -1,0 +1,98 @@
+.instructor{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    .content{
+        background-color: #edf1fe;
+        
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                font-size: 40px;
+                font-weight: 500;
+                font-style: bold;
+                background-color: #edf1fe;
+                margin: 20px 10px;
+            }
+            .row{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                table{
+                    font-family: 'Poppins', sans-serif;                    
+                    border-collapse: collapse;
+                    width: 90%;
+                    margin: 5%;
+                    border-spacing: 8px;
+                    tr{
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        th{
+                            text-align: center;
+                            font-size: 25px;
+                            font-weight: 800;
+                            color: darkgray;
+                        }
+                        td{
+                            text-align: center;
+                            margin: 10px;
+                            padding: 20px;
+                            a{
+                                text-decoration: none;
+                                background-color: #007bff;
+                                color: #fff;
+                                padding: 10px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                }
+                p{
+                    padding: 5px;
+                    font-size: 15px;
+                }
+                .message-board {
+                    background-color: #f2f2f200;
+                    padding: 20px;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    width: 100%;
+                    .message-input {
+                        input[type="text"] {
+                            width: 90%;
+                            padding: 10px;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                            margin-top: 10px;
+                        }
+                        
+                    }
+                }
+                button {
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #0056b3;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .instructor{
+        .content {
+            .main {
+                margin-left: 0
+            }
+        }
+    } 
+}

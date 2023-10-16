@@ -1,0 +1,31 @@
+.contact{
+    font-family: 'Poppins', sans-serif;
+    .content{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        color: #202020;
+        background: #fff;
+        form{
+            .input {
+                padding: .75rem 1rem;
+                border-radius: .35rem;
+                border: 1px solid rgba(0, 0, 0, .1);
+                width: 50%;
+            }
+            input[type="submit"] {
+                background-color: #fff;
+                font-family: Garamond, serif;
+                font-style: normal;
+                color: #5a80fb;
+                border-color: #5a80fb;
+                border-radius: 25px;
+                padding: 10px 20px;
+                font-size: 18px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                display: inline-block;
+              }
+        }
+    }
+}

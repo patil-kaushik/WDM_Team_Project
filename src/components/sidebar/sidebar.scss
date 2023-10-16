@@ -1,0 +1,21 @@
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    a{
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+}
+@media (max-width: 480px) {
+    .sidebar{
+        display: none;
+    } 
+}

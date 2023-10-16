@@ -1,0 +1,88 @@
+.admin{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    .content{
+        background-color: #edf1fe;
+        
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .course-name{
+                font-size: 40px;
+                font-weight: 500;
+                font-style: bold;
+                background-color: #edf1fe;
+                margin: 20px 10px;
+            }
+            p{
+                width: 80%;
+                padding: 10px;
+                font-size: 20px;
+                background-color: #edf1fe;
+                margin: 5px 0 0 0;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+                text-align: center;
+                font-weight: 700;
+            }
+            .row{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                table{
+                    font-family: 'Poppins', sans-serif;                    
+                    border-collapse: collapse;
+                    width: 90%;
+                    margin: 5%;
+                    border-spacing: 8px;
+                    tr{
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        th{
+                            text-align: center;
+                            font-size: 25px;
+                            font-weight: 800;
+                            color: darkgray;
+                        }
+                        td{
+                            text-align: center;
+                            margin: 10px;
+                            padding: 20px;
+                            a, button{
+                                text-decoration: none;
+                                background-color: #007bff;
+                                color: #fff;
+                                padding: 10px;
+                                border-radius: 10px;
+                                border: none;
+                                outline: none;
+                            }
+                        }
+                    }
+                    .module{
+                        border-bottom: 1px solid #000000;
+                        td{
+                            padding: 10px;
+                        }
+                    }
+                }
+                p{
+                    padding: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .admin{
+        .content {
+            .main {
+                margin-left: 0
+            }
+        }
+    } 
+}

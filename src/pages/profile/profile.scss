@@ -1,0 +1,61 @@
+.profile{
+    font-family: 'Poppins', sans-serif;
+    .content{
+        .main{
+            border-radius: 0 0 1rem 1rem;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2px;
+            .container {
+                width: 90%;
+                padding: 2rem 0;
+                overflow-y: auto;
+                max-height: 90vh;
+                .profile-info {
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    padding: 2rem;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                    margin: 2rem auto;
+                    width: 80%;
+                    max-width: 600px;
+                    .profile-image {
+                        width: 150px;
+                        height: 150px;
+                        background-color: #2268b848;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-size: 2rem;
+                        margin: 0 auto 1rem;
+                    }
+                    .profile-name {
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+                    .profile-details {
+                        font-size: 1rem;
+                        color: #555;
+                        margin-bottom: 1rem;
+                    }
+                }
+                button {
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    padding: 20px;
+                    margin-top: 10px;
+                    border-radius: 18px;
+                    cursor: pointer;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
